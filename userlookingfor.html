@@ -1,0 +1,112 @@
+<form>
+    
+    <label for="pititle">PERSONAL INFORMATION:</label>
+  
+    <label>
+      <label for="name">&nbsp;&nbsp;Welcome! What is your name:</label>
+      <input type="text" id="nam<fore" name="name"><br>
+    </label>
+  
+    <form>
+      <label for="email">&nbsp;Please enter your email address:</label>
+      <input type="email" id="email" name="email"><br>
+    </form>
+    
+    <form>
+      <label for="age">&nbsp;What is your age?:</label>
+      <input type="number" id="age" name="age" min="18" max="34">  
+    </form>
+    
+    <form>
+      <label for="gender">&nbsp;Gender:</label>
+      <select id="gender" name="gender">
+      <option value="male">Male</option>
+      <option value="female">Female</option>
+      <option value="other">Other</option>
+    </select><br>
+  
+  
+    <label for="housingqs">&nbsp;HOUSING/ROOMING INFO:</label>
+  
+    <form>
+        <label for="Location">&nbsp;Street:</label>
+        <input type="text" id="street" name="Street">
+        <label for="Location">&nbsp;City:</label>
+        <input type="text" id="City" name="City">
+        <label for="Location">&nbsp;State:</label>
+        <input type="text" id="State" name="State">
+
+      </form>
+
+
+    <form>
+      <label for="budget">&nbsp;Pricing of Unit ($/per month):</label>
+      <input type="number" id="budget" name="budget" min="$500" max="$4500">
+    </form>
+  
+    <form>
+      <label for="bthroom"> &nbsp;How many bathrooms? (between 1-5):</label>
+      <input type="number" id="bthroom" name="bthroom" min="1" max="5">
+    </form>
+  
+    <form>
+      <label for="bdroom">&nbsp;How many bedrooms?  (between 1-5):</label>
+      <input type="number" id="bdroom" name="bdroom" min="1" max="5">
+    </form>
+  
+    <form>
+      <label for="livingspace">&nbsp;Square feet of living space :</label>
+      <input type="number" id="livingspace" name="livingspace" min="300" max="1000">
+    </form>
+  
+  
+    <form>
+      <label for="accessiblities">&nbsp; Are you offering accessibile housing?:</label>
+      <select id="accessiblities" name="accessiblities">
+        <option value="YES">Yes</option>
+        <option value="NO">No</option>
+      </select><br>
+    </form>
+  
+    <form>
+      <label for="Pet">&nbsp;Are you offering an animal/pet friendly living space?:</label>
+      <select id="Pet" name="Pet">
+        <option value="YES">Yes</option>
+        <option value="NO">No</option>
+      </select><br>   
+    </form>
+  
+    <form>
+          <legend>Your Place is Nearby (5-15 miles) </legend>
+        <div>
+          <input type="checkbox" id="Grocery" name="MustHave" value="Grocery" />
+          <label for="coding">Grocery</label>
+        </div>
+        <div>
+          <input type="checkbox" id="Gym" name="MustHave" value="Gym" />
+          <label for="Gym">Gym</label>
+        </div>
+        <div>
+          <input type="checkbox" id="Public Transportation" name="MustHave" value="Public Transportation" />
+          <label for="Public Transportation">Public Transportation</label>
+        </div>
+        <div>
+          <input type="checkbox" id="Laundromat" name="MustHave" value="Laundromat" />
+          <label for="Laundromat">Laundromat</label>
+        </div>
+        <div>
+          <input type="checkbox" id="Parking" name="MustHave" value="Parking" />
+          <label for="Parking">Parking</label>
+        </div>
+  
+        <label for="freeform">Give a description on who you are, what you do, and what housing you're looking for. Set your preferences and boundaries too to get connected with the ideal roomate:</label><br>
+        <textarea id="freeform" name="freeform" rows="4" cols="50">
+          Enter text here...
+        </textarea>
+        
+  
+        
+  
+    <input type="submit" value="Submit">
+  </form>
+  </div>
